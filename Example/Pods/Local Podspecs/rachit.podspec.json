@@ -1,6 +1,6 @@
 {
   "name": "rachit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "common code for rachit",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
@@ -10,11 +10,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "RachitKhattar": "rachit.khattar@timesinternet.in"
+    "RachitKhattar": "rachitkhattar01@gmail.com"
   },
   "source": {
     "git": "https://github.com/RachitKhattar/rachit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

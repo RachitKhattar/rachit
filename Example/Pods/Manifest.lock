@@ -1,5 +1,5 @@
 PODS:
-  - rachit (0.1.0)
+  - rachit (0.1.2)
 
 DEPENDENCIES:
   - rachit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  rachit: eab4d16a7f556376ed5d179322894dc3475f835b
+  rachit: 3693fdf338280e3ee8a70f17f3223299bf7ea54f
 
 PODFILE CHECKSUM: 87a357b7298836585b111c944f7f9b7f4688f4aa
 
