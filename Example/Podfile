@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'rachit_Example' do
+  pod 'rachit', :path => '../'
+
+  target 'rachit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
