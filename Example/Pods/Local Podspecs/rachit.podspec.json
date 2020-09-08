@@ -1,7 +1,8 @@
 {
   "name": "rachit",
   "version": "0.1.0",
-  "summary": "A short description of rachit.",
+  "summary": "common code for rachit",
+  "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/RachitKhattar/rachit",
   "license": {
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "rachit/Classes/**/*"
+  "source_files": "rachit/Classes/**/*",
+  "swift_version": "5.0"
 }
