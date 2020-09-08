@@ -22,7 +22,7 @@ pod 'rachit'
 
 ## Author
 
-RachitKhattar, rachit.khattar@timesinternet.in
+RachitKhattar, rachitkhattar01@gmail.com
 
 ## License
 
