@@ -1,0 +1,16 @@
+PODS:
+  - rachit (0.1.0)
+
+DEPENDENCIES:
+  - rachit (from `../`)
+
+EXTERNAL SOURCES:
+  rachit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  rachit: bb80251b04bcea279b8909447ed328ce63ed9e25
+
+PODFILE CHECKSUM: 87a357b7298836585b111c944f7f9b7f4688f4aa
+
+COCOAPODS: 1.9.3

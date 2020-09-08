@@ -33,7 +33,7 @@
 		33077939E4F95369A4D3D848 /* Pods-rachit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rachit_Example.release.xcconfig"; path = "Target Support Files/Pods-rachit_Example/Pods-rachit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		39BAD3AC31EAC31A5D6C2F16 /* Pods-rachit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rachit_Example.debug.xcconfig"; path = "Target Support Files/Pods-rachit_Example/Pods-rachit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5504994D1616722E5BC0EA45 /* Pods-rachit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rachit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-rachit_Tests/Pods-rachit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5FB13BE5E202A0F4237968D3 /* rachit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rachit.podspec; path = ../rachit.podspec; sourceTree = "<group>"; };
+		5FB13BE5E202A0F4237968D3 /* rachit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rachit.podspec; path = ../rachit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* rachit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rachit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* rachit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rachit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D2A58216864E529E0493356 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D2A58216864E529E0493356 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		77C6AC06F0EE519123F990E5 /* Pods-rachit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rachit_Tests.release.xcconfig"; path = "Target Support Files/Pods-rachit_Tests/Pods-rachit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE213ECA61BB81120121EC67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE213ECA61BB81120121EC67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5504994D1616722E5BC0EA45 /* Pods-rachit_Tests.debug.xcconfig */,
 				77C6AC06F0EE519123F990E5 /* Pods-rachit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "rachit",
+  "version": "0.1.0",
+  "summary": "A short description of rachit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RachitKhattar/rachit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RachitKhattar": "rachit.khattar@timesinternet.in"
+  },
+  "source": {
+    "git": "https://github.com/RachitKhattar/rachit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "rachit/Classes/**/*"
+}
