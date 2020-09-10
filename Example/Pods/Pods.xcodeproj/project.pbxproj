@@ -7,37 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA3E8AED6360546ABB14C55454AFCE9 /* SlideFromLeftPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684EC63CB3AAEE5EB8FAB618AD50A98 /* SlideFromLeftPresentationManager.swift */; };
-		0C79DA131E5ED8C1197913C8E5A018ED /* CenterPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32B027CC41C948772743C64B073012 /* CenterPresentationController.swift */; };
-		0D6ACD623F254D7651342808DC5C26D4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8C47CDB6994C316AB18DA0B1B8136 /* UIViewControllerExtension.swift */; };
-		0E7DEE192D114A1792FCA0674DF209E4 /* CenterPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0158224EC36AB1F11FE87F69F58C9FB /* CenterPresentationManager.swift */; };
-		164A63C091D9D79E3062B811E6AFB161 /* FromTopDismissBottomPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD9683A5C90F2F54F2A85F0E433EF7 /* FromTopDismissBottomPresentationManager.swift */; };
-		1AF0A95D98DB46450611DFB00A804026 /* rachit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 920F8808501EAD306301C6468F41D2BD /* rachit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22194EF331C4F1753FCDBABA674A4235 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCAB58D787F2989D8B4F60A6E7F72AF /* UITableViewExtension.swift */; };
-		25F77FC85F1520486B3BE1D1A2CE3EA8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A6A454A09848723F5E054A86ABDF1 /* UIViewExtension.swift */; };
+		0B7D00E370F3D0938268DC0D3891FE9D /* FromTopDismissBottomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFA07BA7A5E1778A2BE2510F004936 /* FromTopDismissBottomPresentationController.swift */; };
+		0D4F783A53629A3E12E134044BFE26B7 /* SlideUpPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FA12D810204CD73CE6A4E8580F9A7 /* SlideUpPresentationAnimator.swift */; };
+		0D6FF4501A1DCD0C2173C7D04A8B2DB1 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644246C541F86EBB1C944DA6D6C9128 /* NSObjectExtension.swift */; };
+		13EF2824144A6EAE373DCDC016F587A6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B2C690E61CAC44E9C75044361DE5E /* UIViewControllerExtension.swift */; };
+		1C7E0156122880334079438DA7FD8D8D /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C24D1DA274D5F819B2D99AFB6479F /* UICollectionViewExtension.swift */; };
+		1F4015ECEECC5AD6708B946821B45EAC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C58495002DE1D9E6070EACE0BE123B /* UIViewExtension.swift */; };
+		2DA577C5FAF427F8EDFF1D8741CC8397 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230729AA3F49C55EBB98A752EC91F73F /* UITableViewExtension.swift */; };
 		3452F8EE723B5E9E1112331197F8CB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		46BBC6F1F260C7DF9B7DBBA76D4D1C5F /* SlideUpPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859C1090F37488B55822CBEAACA69A1 /* SlideUpPresentationController.swift */; };
+		3D0AE354B2ADC8465274AA0A277558B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		43E8C88A634B40B47367F8E5378D3D45 /* SlideUpPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F797B5CD46D05689C0F5B9B261D44 /* SlideUpPresentationManager.swift */; };
 		4F559B02BB076C6AE275AF1045B0E477 /* Pods-rachit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC249463DBB34323BFE7EE03ADCBC97 /* Pods-rachit_Example-dummy.m */; };
-		51F7C967E56317B85D483B2B60E80CA7 /* SlideUpPresentationAnimatorForNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91CD796CAA63BA3ED5753D79B62E72 /* SlideUpPresentationAnimatorForNavigation.swift */; };
 		56128E60CA6BCDAC56F4CEB18C73B140 /* Pods-rachit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC75618FD665A8974A4A3C63EB2114F5 /* Pods-rachit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F6CF475A447A85CF6929D693B65A056 /* CenterPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF6BE0F19854060A9473C379EF85AE5 /* CenterPresentationAnimator.swift */; };
+		59010765CFB61E6DA2F8793595811207 /* FromTopDismissBottomPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350F1F0D56A8C9A8C2AE6214E0098D1C /* FromTopDismissBottomPresentationManager.swift */; };
+		5AE42D8BCDB771D35E15540CA36EEC6F /* SlideFromLeftPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5702D78CF58B5B2EB5B8815FF1360F /* SlideFromLeftPresentationAnimator.swift */; };
+		70F7C73BC6AEDDDCD08C465D0EBB5FC6 /* SlideUpPresentationAnimatorForNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71F56DB1B9C6F817F56B8509352441F /* SlideUpPresentationAnimatorForNavigation.swift */; };
 		726F0B3808AA9E436F6E750B36C26210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		753FFDCB82C876CD3E8DDED9777BB4EE /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA36B4467A989AB3F391EC809C3619B /* UITableViewCellExtension.swift */; };
+		81F6C614EA77F38D78AB352093E92435 /* SlideUpPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289FA664C989B5E978BD30B8647496D /* SlideUpPresentationController.swift */; };
+		87815344B122D9AF0E2C180EAECE8E7A /* SlideFromLeftPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DC1017BFDBD9274909B2594C623B98 /* SlideFromLeftPresentationController.swift */; };
 		88E39A8166A06C6793712B7F12A41ADD /* Pods-rachit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868D2A41780A306618ECD1DDD3BBA9FE /* Pods-rachit_Tests-dummy.m */; };
-		899920AFCC20168DD65EE7B22B330083 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F25CC0295C778AC605B8407929460 /* UIStoryboardExtension.swift */; };
-		8E4B13C8F32152621BA9E0BE4F7C18A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		93F170C86AD83F46E1F78180F5540392 /* FromTopDismissBottomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B82364994474194B582FECDBE55FE81 /* FromTopDismissBottomPresentationController.swift */; };
+		96EE7D2CAEE04B60755E6FEBCE6318A3 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72125108B26F5F72606273F006CB18 /* UITableViewCellExtension.swift */; };
 		9B7C79B1E6D2B37A500B62A2EF37988A /* Pods-rachit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FDD007018FF69DB0AFB06B6E61E560 /* Pods-rachit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BFDFDDF35D91F9B358331B9B2845648 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A9A61940E673DD601BE165258CB17 /* UICollectionViewExtension.swift */; };
-		AA9E74F81715FE663C1EACF2CD6CD951 /* SlideUpPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FB430BA4F1013167F2647228EDB2C /* SlideUpPresentationAnimator.swift */; };
-		B026A6D60F661C5816A8D6B11E2A5FE5 /* SlideFromLeftPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607ACDFC17C390E7CADE11778B9E4DA /* SlideFromLeftPresentationController.swift */; };
-		B085570F41FC6FFA87D89A4F2CAB8597 /* rachit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FE27ED6953C04D7C54230A5689ABE /* rachit-dummy.m */; };
-		D4A151CA9A209545727195D4BB2CEDE1 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF29F72A0BCE418160C21E91A43DDC /* NSObjectExtension.swift */; };
-		DAA4C22CF49773EE3D70FBE157CECC77 /* SlideUpPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD02532942E1E59005D426B05DF3E1 /* SlideUpPresentationManager.swift */; };
-		E84B4E644BE611D3957B7000DFB34D4C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253AB141C2F1EAFDCB288F9FFC26826F /* ArrayExtension.swift */; };
-		EA945EA50EFFF31D523B65F7F2D6D884 /* SlideFromLeftPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304566713C0B419832E23B0D0437EF9F /* SlideFromLeftPresentationAnimator.swift */; };
-		ED94E1D489F4777A6624DFBBC66D48D6 /* FromTopDismissBottomPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D122B275FC2C68EA0295F15865BBFF8 /* FromTopDismissBottomPresentationAnimator.swift */; };
-		F63FE167504E78906E1BC116F26BC11E /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D4FC29C7995C40EA4B1EB000141D0 /* UICollectionViewCellExtension.swift */; };
+		9C6B306FEDC3091D66F588A22994BD69 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834252478D12A54E3A4184D4A1394885 /* ArrayExtension.swift */; };
+		9D97B5AEE887453091DE2364B555329D /* FromTopDismissBottomPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FB4A7BBD94BD4BA0DF321537F0D20 /* FromTopDismissBottomPresentationAnimator.swift */; };
+		A7102E81EF4DF97C787350C8058C79BD /* rachit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8668CDA5D7719B0B74533DB9BD4E8FC /* rachit-dummy.m */; };
+		B3E9E46837217CC3FE9F56DE9BD9289A /* CenterPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200F3A3A8852DA0DA03EC8F4EF24A7 /* CenterPresentationController.swift */; };
+		B45ACF7E1FC8882FBFCEA8FC8E92EF05 /* CenterPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54544601AA38B27CC7736F80998C48C8 /* CenterPresentationAnimator.swift */; };
+		CBB57E4F3F0032EB0247B1C35CF13957 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117FBD13E5B8E1C871542D9F9F84EF66 /* UICollectionViewCellExtension.swift */; };
+		D05FCD4CA7097409E50728D8AA83CB70 /* rachit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E948820FED1B81D3F539C49340557F /* rachit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7651B996969E9FC371165B9CC5CA453 /* CenterPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6051042384D5F7DB4825FAD0C86D6 /* CenterPresentationManager.swift */; };
+		F492D52237C00084933E232D68D0F9C2 /* SlideFromLeftPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0425CB67BA20FF6783F09DF87E41AB /* SlideFromLeftPresentationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,74 +59,73 @@
 /* Begin PBXFileReference section */
 		0116D915A2B2A73AE365C5DBC20C443B /* Pods_rachit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rachit_Example.framework; path = "Pods-rachit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE73CC85EAA0D23B1155A9F1E702FD4 /* rachit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rachit.framework; path = rachit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFFA07BA7A5E1778A2BE2510F004936 /* FromTopDismissBottomPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationController.swift; sourceTree = "<group>"; };
 		0FC249463DBB34323BFE7EE03ADCBC97 /* Pods-rachit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rachit_Example-dummy.m"; sourceTree = "<group>"; };
-		17433DB3BD3488A63B9C3B9F402C7A2B /* rachit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = rachit.modulemap; sourceTree = "<group>"; };
+		117FBD13E5B8E1C871542D9F9F84EF66 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
 		1A37E2D44E20C2F6E8056E13E7B98983 /* Pods-rachit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B5F1952C01D93F2B79732AA484BE610 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1E243A701903D085BF726DABB12612B0 /* Pods-rachit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rachit_Example.modulemap"; sourceTree = "<group>"; };
-		2134EE512708F90D4838803D1DE1FF68 /* rachit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rachit.debug.xcconfig; sourceTree = "<group>"; };
-		253AB141C2F1EAFDCB288F9FFC26826F /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		222EC5ECB015B9A6A00D14C643C2729F /* rachit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = rachit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		230729AA3F49C55EBB98A752EC91F73F /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		2CCCAFB68669AD9722011B4FA7B01B8E /* Pods-rachit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Example-Info.plist"; sourceTree = "<group>"; };
-		304566713C0B419832E23B0D0437EF9F /* SlideFromLeftPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationAnimator.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33FD02532942E1E59005D426B05DF3E1 /* SlideUpPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationManager.swift; sourceTree = "<group>"; };
+		350F1F0D56A8C9A8C2AE6214E0098D1C /* FromTopDismissBottomPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationManager.swift; sourceTree = "<group>"; };
 		37F4BC88C1A45BBF2D4CE0CDBB44C158 /* Pods-rachit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rachit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A3FB4A7BBD94BD4BA0DF321537F0D20 /* FromTopDismissBottomPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationAnimator.swift; sourceTree = "<group>"; };
+		3D0425CB67BA20FF6783F09DF87E41AB /* SlideFromLeftPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationManager.swift; sourceTree = "<group>"; };
+		3D5702D78CF58B5B2EB5B8815FF1360F /* SlideFromLeftPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationAnimator.swift; sourceTree = "<group>"; };
 		3EBD5F2E6E7F2653B6B6A95D9926E6D3 /* Pods-rachit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		423F25CC0295C778AC605B8407929460 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
-		43AF29F72A0BCE418160C21E91A43DDC /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
-		4607ACDFC17C390E7CADE11778B9E4DA /* SlideFromLeftPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationController.swift; sourceTree = "<group>"; };
-		472FB430BA4F1013167F2647228EDB2C /* SlideUpPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimator.swift; sourceTree = "<group>"; };
-		53891038D298F7E65BF567CDE36BB649 /* rachit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = rachit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5684EC63CB3AAEE5EB8FAB618AD50A98 /* SlideFromLeftPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationManager.swift; sourceTree = "<group>"; };
-		5D122B275FC2C68EA0295F15865BBFF8 /* FromTopDismissBottomPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationAnimator.swift; sourceTree = "<group>"; };
-		621FE27ED6953C04D7C54230A5689ABE /* rachit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rachit-dummy.m"; sourceTree = "<group>"; };
+		4289FA664C989B5E978BD30B8647496D /* SlideUpPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationController.swift; sourceTree = "<group>"; };
+		4CF9FBB95C848CC9F1451DA97D21B456 /* rachit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = rachit.modulemap; sourceTree = "<group>"; };
+		4F7032BC35C81DA9679E9AD69D96BE61 /* rachit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rachit-prefix.pch"; sourceTree = "<group>"; };
+		52C58495002DE1D9E6070EACE0BE123B /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		54544601AA38B27CC7736F80998C48C8 /* CenterPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationAnimator.swift; sourceTree = "<group>"; };
+		55F6051042384D5F7DB4825FAD0C86D6 /* CenterPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationManager.swift; sourceTree = "<group>"; };
+		59E948820FED1B81D3F539C49340557F /* rachit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rachit-umbrella.h"; sourceTree = "<group>"; };
 		659C74FE066D1F5BE6D405BE71CE3A19 /* Pods-rachit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Tests-Info.plist"; sourceTree = "<group>"; };
-		65E8C47CDB6994C316AB18DA0B1B8136 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		6B82364994474194B582FECDBE55FE81 /* FromTopDismissBottomPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationController.swift; sourceTree = "<group>"; };
+		6B4F13916860ACDC095C572BBE3F904B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6ED80C23E63BFCF4DD6EE040B5048B64 /* Pods-rachit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rachit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70D7A9411392139CF7BD3679D60CBDC9 /* rachit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "rachit-Info.plist"; sourceTree = "<group>"; };
-		7C32B027CC41C948772743C64B073012 /* CenterPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationController.swift; sourceTree = "<group>"; };
-		7DF6BE0F19854060A9473C379EF85AE5 /* CenterPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationAnimator.swift; sourceTree = "<group>"; };
-		84408E3656E1202FA6536E408BEE0D48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72DC1017BFDBD9274909B2594C623B98 /* SlideFromLeftPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationController.swift; sourceTree = "<group>"; };
+		834252478D12A54E3A4184D4A1394885 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		864702C5CA107452EB6F1B8021F29FA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		868D2A41780A306618ECD1DDD3BBA9FE /* Pods-rachit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rachit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A2C1097F1C4BCD58DC801466521E5DE /* Pods-rachit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		920F8808501EAD306301C6468F41D2BD /* rachit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rachit-umbrella.h"; sourceTree = "<group>"; };
+		8B3C24D1DA274D5F819B2D99AFB6479F /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		91200F3A3A8852DA0DA03EC8F4EF24A7 /* CenterPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationController.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FA36B4467A989AB3F391EC809C3619B /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		A13FA12D810204CD73CE6A4E8580F9A7 /* SlideUpPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimator.swift; sourceTree = "<group>"; };
+		A71F56DB1B9C6F817F56B8509352441F /* SlideUpPresentationAnimatorForNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimatorForNavigation.swift; sourceTree = "<group>"; };
+		AC2B2C690E61CAC44E9C75044361DE5E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		ADB384DB95E5CD64EA3981269245A003 /* Pods_rachit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rachit_Tests.framework; path = "Pods-rachit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33A9A61940E673DD601BE165258CB17 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		AFBB6F77D321A56FF4BE1A1E41E479E9 /* rachit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "rachit-Info.plist"; sourceTree = "<group>"; };
 		B3FDD007018FF69DB0AFB06B6E61E560 /* Pods-rachit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rachit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B63F797B5CD46D05689C0F5B9B261D44 /* SlideUpPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationManager.swift; sourceTree = "<group>"; };
+		B644246C541F86EBB1C944DA6D6C9128 /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		B9F8E22F591EDC6FAC412A859A82D8AC /* Pods-rachit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA72125108B26F5F72606273F006CB18 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		BBC7D1E36B302DB8865F1E432663C916 /* Pods-rachit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA3A6A454A09848723F5E054A86ABDF1 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		DA91CD796CAA63BA3ED5753D79B62E72 /* SlideUpPresentationAnimatorForNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimatorForNavigation.swift; sourceTree = "<group>"; };
 		E0557DC11C7D1648FF6A2C2AF00BE93D /* Pods-rachit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rachit_Tests.modulemap"; sourceTree = "<group>"; };
-		E0882F3F94BD5726210C54E0036A0186 /* rachit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rachit-prefix.pch"; sourceTree = "<group>"; };
 		E9A51928745449671B3228D60CE840D7 /* Pods-rachit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC75618FD665A8974A4A3C63EB2114F5 /* Pods-rachit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rachit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EE1D4FC29C7995C40EA4B1EB000141D0 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
-		F0158224EC36AB1F11FE87F69F58C9FB /* CenterPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationManager.swift; sourceTree = "<group>"; };
 		F11B5A43BE89F0AA80EF686137665C55 /* Pods-rachit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rachit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F11C59234D8F891C43269BFB58A56AA7 /* rachit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rachit.release.xcconfig; sourceTree = "<group>"; };
-		F859C1090F37488B55822CBEAACA69A1 /* SlideUpPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationController.swift; sourceTree = "<group>"; };
-		FCCD9683A5C90F2F54F2A85F0E433EF7 /* FromTopDismissBottomPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationManager.swift; sourceTree = "<group>"; };
-		FFCAB58D787F2989D8B4F60A6E7F72AF /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		F719D0D782501919CB725E565BF07906 /* rachit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rachit.debug.xcconfig; sourceTree = "<group>"; };
+		F8668CDA5D7719B0B74533DB9BD4E8FC /* rachit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rachit-dummy.m"; sourceTree = "<group>"; };
+		FC58274496508B08D7F0B9977575C1C0 /* rachit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rachit.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AA6230EAF28FF463A33F12E72E2F311 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E4B13C8F32152621BA9E0BE4F7C18A9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1783668A33E5246FEBD0251B0E0E92FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3452F8EE723B5E9E1112331197F8CB38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F998A1BF3DCBE7841928D6FDDECDDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0AE354B2ADC8465274AA0A277558B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,16 +140,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		439BEA34699ECC9A7D3EB86C170017D4 /* rachit */ = {
+		15BCBE080614DB099F73C554BA272FE5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C7FE3DE4212C38FD66F6A606B471792E /* Extensions */,
-				5B285BD9203CBBCAA4DE91BEBA7F9FA4 /* Pod */,
-				9D61D7FA2E5AA9FFE462B966A5FF53F6 /* Support Files */,
-				5CF436CC7FF665449E24DDE63765DABC /* Utils */,
+				834252478D12A54E3A4184D4A1394885 /* ArrayExtension.swift */,
+				B644246C541F86EBB1C944DA6D6C9128 /* NSObjectExtension.swift */,
+				117FBD13E5B8E1C871542D9F9F84EF66 /* UICollectionViewCellExtension.swift */,
+				8B3C24D1DA274D5F819B2D99AFB6479F /* UICollectionViewExtension.swift */,
+				BA72125108B26F5F72606273F006CB18 /* UITableViewCellExtension.swift */,
+				230729AA3F49C55EBB98A752EC91F73F /* UITableViewExtension.swift */,
+				AC2B2C690E61CAC44E9C75044361DE5E /* UIViewControllerExtension.swift */,
+				52C58495002DE1D9E6070EACE0BE123B /* UIViewExtension.swift */,
 			);
-			name = rachit;
-			path = ../..;
+			name = Extensions;
+			path = rachit/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		3F5DF010F229777718C686997183A4F8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				54544601AA38B27CC7736F80998C48C8 /* CenterPresentationAnimator.swift */,
+				91200F3A3A8852DA0DA03EC8F4EF24A7 /* CenterPresentationController.swift */,
+				55F6051042384D5F7DB4825FAD0C86D6 /* CenterPresentationManager.swift */,
+				3A3FB4A7BBD94BD4BA0DF321537F0D20 /* FromTopDismissBottomPresentationAnimator.swift */,
+				0DFFA07BA7A5E1778A2BE2510F004936 /* FromTopDismissBottomPresentationController.swift */,
+				350F1F0D56A8C9A8C2AE6214E0098D1C /* FromTopDismissBottomPresentationManager.swift */,
+				3D5702D78CF58B5B2EB5B8815FF1360F /* SlideFromLeftPresentationAnimator.swift */,
+				72DC1017BFDBD9274909B2594C623B98 /* SlideFromLeftPresentationController.swift */,
+				3D0425CB67BA20FF6783F09DF87E41AB /* SlideFromLeftPresentationManager.swift */,
+				A13FA12D810204CD73CE6A4E8580F9A7 /* SlideUpPresentationAnimator.swift */,
+				A71F56DB1B9C6F817F56B8509352441F /* SlideUpPresentationAnimatorForNavigation.swift */,
+				4289FA664C989B5E978BD30B8647496D /* SlideUpPresentationController.swift */,
+				B63F797B5CD46D05689C0F5B9B261D44 /* SlideUpPresentationManager.swift */,
+			);
+			name = Animations;
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		56EC72D3D4AC258B78F8843535E525F8 /* Targets Support Files */ = {
@@ -161,25 +184,6 @@
 				65B71C2C1BCA11E91C5DC9BBCD9898C9 /* Pods-rachit_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5B285BD9203CBBCAA4DE91BEBA7F9FA4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				84408E3656E1202FA6536E408BEE0D48 /* LICENSE */,
-				53891038D298F7E65BF567CDE36BB649 /* rachit.podspec */,
-				1B5F1952C01D93F2B79732AA484BE610 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5CF436CC7FF665449E24DDE63765DABC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				7761B040BA0AC493788ACBF065EC6794 /* Animations */,
-			);
-			name = Utils;
-			path = rachit/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		65B71C2C1BCA11E91C5DC9BBCD9898C9 /* Pods-rachit_Tests */ = {
@@ -198,25 +202,19 @@
 			path = "Target Support Files/Pods-rachit_Tests";
 			sourceTree = "<group>";
 		};
-		7761B040BA0AC493788ACBF065EC6794 /* Animations */ = {
+		7C5BE177379D582A53BDB0AADF4B2FD1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DF6BE0F19854060A9473C379EF85AE5 /* CenterPresentationAnimator.swift */,
-				7C32B027CC41C948772743C64B073012 /* CenterPresentationController.swift */,
-				F0158224EC36AB1F11FE87F69F58C9FB /* CenterPresentationManager.swift */,
-				5D122B275FC2C68EA0295F15865BBFF8 /* FromTopDismissBottomPresentationAnimator.swift */,
-				6B82364994474194B582FECDBE55FE81 /* FromTopDismissBottomPresentationController.swift */,
-				FCCD9683A5C90F2F54F2A85F0E433EF7 /* FromTopDismissBottomPresentationManager.swift */,
-				304566713C0B419832E23B0D0437EF9F /* SlideFromLeftPresentationAnimator.swift */,
-				4607ACDFC17C390E7CADE11778B9E4DA /* SlideFromLeftPresentationController.swift */,
-				5684EC63CB3AAEE5EB8FAB618AD50A98 /* SlideFromLeftPresentationManager.swift */,
-				472FB430BA4F1013167F2647228EDB2C /* SlideUpPresentationAnimator.swift */,
-				DA91CD796CAA63BA3ED5753D79B62E72 /* SlideUpPresentationAnimatorForNavigation.swift */,
-				F859C1090F37488B55822CBEAACA69A1 /* SlideUpPresentationController.swift */,
-				33FD02532942E1E59005D426B05DF3E1 /* SlideUpPresentationManager.swift */,
+				4CF9FBB95C848CC9F1451DA97D21B456 /* rachit.modulemap */,
+				F8668CDA5D7719B0B74533DB9BD4E8FC /* rachit-dummy.m */,
+				AFBB6F77D321A56FF4BE1A1E41E479E9 /* rachit-Info.plist */,
+				4F7032BC35C81DA9679E9AD69D96BE61 /* rachit-prefix.pch */,
+				59E948820FED1B81D3F539C49340557F /* rachit-umbrella.h */,
+				F719D0D782501919CB725E565BF07906 /* rachit.debug.xcconfig */,
+				FC58274496508B08D7F0B9977575C1C0 /* rachit.release.xcconfig */,
 			);
-			name = Animations;
-			path = Animations;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/rachit";
 			sourceTree = "<group>";
 		};
 		8F27FB2E75C813AB9BA4C4606C1A86A7 /* Products */ = {
@@ -229,19 +227,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D61D7FA2E5AA9FFE462B966A5FF53F6 /* Support Files */ = {
+		93489A957A5F90635693F4749CBE56C3 /* rachit */ = {
 			isa = PBXGroup;
 			children = (
-				17433DB3BD3488A63B9C3B9F402C7A2B /* rachit.modulemap */,
-				621FE27ED6953C04D7C54230A5689ABE /* rachit-dummy.m */,
-				70D7A9411392139CF7BD3679D60CBDC9 /* rachit-Info.plist */,
-				E0882F3F94BD5726210C54E0036A0186 /* rachit-prefix.pch */,
-				920F8808501EAD306301C6468F41D2BD /* rachit-umbrella.h */,
-				2134EE512708F90D4838803D1DE1FF68 /* rachit.debug.xcconfig */,
-				F11C59234D8F891C43269BFB58A56AA7 /* rachit.release.xcconfig */,
+				15BCBE080614DB099F73C554BA272FE5 /* Extensions */,
+				E92C073EE34AE401C56A696D4DF2360F /* Pod */,
+				7C5BE177379D582A53BDB0AADF4B2FD1 /* Support Files */,
+				EA4EB68AA444AF8EB2FA55016AD2E28E /* Utils */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/rachit";
+			name = rachit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B12F5129D3B7FF3786D48B0034EE4498 /* Pods-rachit_Example */ = {
@@ -269,23 +264,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C7FE3DE4212C38FD66F6A606B471792E /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				253AB141C2F1EAFDCB288F9FFC26826F /* ArrayExtension.swift */,
-				43AF29F72A0BCE418160C21E91A43DDC /* NSObjectExtension.swift */,
-				EE1D4FC29C7995C40EA4B1EB000141D0 /* UICollectionViewCellExtension.swift */,
-				B33A9A61940E673DD601BE165258CB17 /* UICollectionViewExtension.swift */,
-				423F25CC0295C778AC605B8407929460 /* UIStoryboardExtension.swift */,
-				9FA36B4467A989AB3F391EC809C3619B /* UITableViewCellExtension.swift */,
-				FFCAB58D787F2989D8B4F60A6E7F72AF /* UITableViewExtension.swift */,
-				65E8C47CDB6994C316AB18DA0B1B8136 /* UIViewControllerExtension.swift */,
-				DA3A6A454A09848723F5E054A86ABDF1 /* UIViewExtension.swift */,
-			);
-			name = Extensions;
-			path = rachit/Classes/Extensions;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -308,9 +286,28 @@
 		DB524D0F5BDA80480AA78280C5192184 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				439BEA34699ECC9A7D3EB86C170017D4 /* rachit */,
+				93489A957A5F90635693F4749CBE56C3 /* rachit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E92C073EE34AE401C56A696D4DF2360F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F13916860ACDC095C572BBE3F904B /* LICENSE */,
+				222EC5ECB015B9A6A00D14C643C2729F /* rachit.podspec */,
+				864702C5CA107452EB6F1B8021F29FA0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EA4EB68AA444AF8EB2FA55016AD2E28E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DF010F229777718C686997183A4F8 /* Animations */,
+			);
+			name = Utils;
+			path = rachit/Classes/Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,11 +321,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		839DAD26FE3F213F736EA563388C2A72 /* Headers */ = {
+		B8B74FAC53FDC68C59853BD0457FF404 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF0A95D98DB46450611DFB00A804026 /* rachit-umbrella.h in Headers */,
+				D05FCD4CA7097409E50728D8AA83CB70 /* rachit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +361,12 @@
 		};
 		AB71103B6938FEBC6D213CEF7080487F /* rachit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66F8F79A0BAB5D7DE80EC0D482BCB068 /* Build configuration list for PBXNativeTarget "rachit" */;
+			buildConfigurationList = B352B3C767B47E5D71332C3A7D4CC097 /* Build configuration list for PBXNativeTarget "rachit" */;
 			buildPhases = (
-				839DAD26FE3F213F736EA563388C2A72 /* Headers */,
-				A5B3E8330B71C94C7293253DEE998281 /* Sources */,
-				0AA6230EAF28FF463A33F12E72E2F311 /* Frameworks */,
-				AFEC49BC1245ADC11F7EDE7D9D062E2B /* Resources */,
+				B8B74FAC53FDC68C59853BD0457FF404 /* Headers */,
+				A2550F88D1DE1113823E661A8BD2678B /* Sources */,
+				1F998A1BF3DCBE7841928D6FDDECDDA3 /* Frameworks */,
+				8FEC75DDB19C88A0D86F1531C275E679 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -436,7 +433,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFEC49BC1245ADC11F7EDE7D9D062E2B /* Resources */ = {
+		8FEC75DDB19C88A0D86F1531C275E679 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,33 +450,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A5B3E8330B71C94C7293253DEE998281 /* Sources */ = {
+		A2550F88D1DE1113823E661A8BD2678B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E84B4E644BE611D3957B7000DFB34D4C /* ArrayExtension.swift in Sources */,
-				6F6CF475A447A85CF6929D693B65A056 /* CenterPresentationAnimator.swift in Sources */,
-				0C79DA131E5ED8C1197913C8E5A018ED /* CenterPresentationController.swift in Sources */,
-				0E7DEE192D114A1792FCA0674DF209E4 /* CenterPresentationManager.swift in Sources */,
-				ED94E1D489F4777A6624DFBBC66D48D6 /* FromTopDismissBottomPresentationAnimator.swift in Sources */,
-				93F170C86AD83F46E1F78180F5540392 /* FromTopDismissBottomPresentationController.swift in Sources */,
-				164A63C091D9D79E3062B811E6AFB161 /* FromTopDismissBottomPresentationManager.swift in Sources */,
-				D4A151CA9A209545727195D4BB2CEDE1 /* NSObjectExtension.swift in Sources */,
-				B085570F41FC6FFA87D89A4F2CAB8597 /* rachit-dummy.m in Sources */,
-				EA945EA50EFFF31D523B65F7F2D6D884 /* SlideFromLeftPresentationAnimator.swift in Sources */,
-				B026A6D60F661C5816A8D6B11E2A5FE5 /* SlideFromLeftPresentationController.swift in Sources */,
-				0BA3E8AED6360546ABB14C55454AFCE9 /* SlideFromLeftPresentationManager.swift in Sources */,
-				AA9E74F81715FE663C1EACF2CD6CD951 /* SlideUpPresentationAnimator.swift in Sources */,
-				51F7C967E56317B85D483B2B60E80CA7 /* SlideUpPresentationAnimatorForNavigation.swift in Sources */,
-				46BBC6F1F260C7DF9B7DBBA76D4D1C5F /* SlideUpPresentationController.swift in Sources */,
-				DAA4C22CF49773EE3D70FBE157CECC77 /* SlideUpPresentationManager.swift in Sources */,
-				F63FE167504E78906E1BC116F26BC11E /* UICollectionViewCellExtension.swift in Sources */,
-				9BFDFDDF35D91F9B358331B9B2845648 /* UICollectionViewExtension.swift in Sources */,
-				899920AFCC20168DD65EE7B22B330083 /* UIStoryboardExtension.swift in Sources */,
-				753FFDCB82C876CD3E8DDED9777BB4EE /* UITableViewCellExtension.swift in Sources */,
-				22194EF331C4F1753FCDBABA674A4235 /* UITableViewExtension.swift in Sources */,
-				0D6ACD623F254D7651342808DC5C26D4 /* UIViewControllerExtension.swift in Sources */,
-				25F77FC85F1520486B3BE1D1A2CE3EA8 /* UIViewExtension.swift in Sources */,
+				9C6B306FEDC3091D66F588A22994BD69 /* ArrayExtension.swift in Sources */,
+				B45ACF7E1FC8882FBFCEA8FC8E92EF05 /* CenterPresentationAnimator.swift in Sources */,
+				B3E9E46837217CC3FE9F56DE9BD9289A /* CenterPresentationController.swift in Sources */,
+				E7651B996969E9FC371165B9CC5CA453 /* CenterPresentationManager.swift in Sources */,
+				9D97B5AEE887453091DE2364B555329D /* FromTopDismissBottomPresentationAnimator.swift in Sources */,
+				0B7D00E370F3D0938268DC0D3891FE9D /* FromTopDismissBottomPresentationController.swift in Sources */,
+				59010765CFB61E6DA2F8793595811207 /* FromTopDismissBottomPresentationManager.swift in Sources */,
+				0D6FF4501A1DCD0C2173C7D04A8B2DB1 /* NSObjectExtension.swift in Sources */,
+				A7102E81EF4DF97C787350C8058C79BD /* rachit-dummy.m in Sources */,
+				5AE42D8BCDB771D35E15540CA36EEC6F /* SlideFromLeftPresentationAnimator.swift in Sources */,
+				87815344B122D9AF0E2C180EAECE8E7A /* SlideFromLeftPresentationController.swift in Sources */,
+				F492D52237C00084933E232D68D0F9C2 /* SlideFromLeftPresentationManager.swift in Sources */,
+				0D4F783A53629A3E12E134044BFE26B7 /* SlideUpPresentationAnimator.swift in Sources */,
+				70F7C73BC6AEDDDCD08C465D0EBB5FC6 /* SlideUpPresentationAnimatorForNavigation.swift in Sources */,
+				81F6C614EA77F38D78AB352093E92435 /* SlideUpPresentationController.swift in Sources */,
+				43E8C88A634B40B47367F8E5378D3D45 /* SlideUpPresentationManager.swift in Sources */,
+				CBB57E4F3F0032EB0247B1C35CF13957 /* UICollectionViewCellExtension.swift in Sources */,
+				1C7E0156122880334079438DA7FD8D8D /* UICollectionViewExtension.swift in Sources */,
+				96EE7D2CAEE04B60755E6FEBCE6318A3 /* UITableViewCellExtension.swift in Sources */,
+				2DA577C5FAF427F8EDFF1D8741CC8397 /* UITableViewExtension.swift in Sources */,
+				13EF2824144A6EAE373DCDC016F587A6 /* UIViewControllerExtension.swift in Sources */,
+				1F4015ECEECC5AD6708B946821B45EAC /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,9 +513,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A04877C74C1F93A4619479E4FA5F04C /* Release */ = {
+		225FD21ED4F099BED9C45B93929EA956 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11C59234D8F891C43269BFB58A56AA7 /* rachit.release.xcconfig */;
+			baseConfigurationReference = F719D0D782501919CB725E565BF07906 /* rachit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -543,11 +539,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		487636404DF4F52754050071FC909F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -807,9 +802,9 @@
 			};
 			name = Debug;
 		};
-		C85231CF4FB3EFA6D5BDA5F135B1A68F /* Debug */ = {
+		BC3ADF02A4EFF032E56C50610490983E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2134EE512708F90D4838803D1DE1FF68 /* rachit.debug.xcconfig */;
+			baseConfigurationReference = FC58274496508B08D7F0B9977575C1C0 /* rachit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -833,10 +828,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -868,11 +864,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66F8F79A0BAB5D7DE80EC0D482BCB068 /* Build configuration list for PBXNativeTarget "rachit" */ = {
+		B352B3C767B47E5D71332C3A7D4CC097 /* Build configuration list for PBXNativeTarget "rachit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C85231CF4FB3EFA6D5BDA5F135B1A68F /* Debug */,
-				1A04877C74C1F93A4619479E4FA5F04C /* Release */,
+				225FD21ED4F099BED9C45B93929EA956 /* Debug */,
+				BC3ADF02A4EFF032E56C50610490983E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
