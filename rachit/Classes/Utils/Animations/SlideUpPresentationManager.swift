@@ -8,20 +8,20 @@
 
 import UIKit
 
-class SlideUpPresentationManager: NSObject, UIViewControllerTransitioningDelegate {
-    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+public class SlideUpPresentationManager: NSObject, UIViewControllerTransitioningDelegate {
+    public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         debugPrint("present1")
         let presentationController = SlideUpPresentationController(presentedViewController: presented,
                                                                    presenting: presenting)
         return presentationController
     }
     
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         debugPrint("present")
         return SlideUpPresentationAnimator(isPresentation: true)
     }
     
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return SlideUpPresentationAnimator(isPresentation: false)
     }
 }

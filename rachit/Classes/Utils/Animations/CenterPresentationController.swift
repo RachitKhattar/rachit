@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CenterPresentationController: UIPresentationController {
+public class CenterPresentationController: UIPresentationController {
     fileprivate var dimmingView: UIView!
     
     override init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?) {
@@ -26,7 +26,7 @@ class CenterPresentationController: UIPresentationController {
         dimmingView.alpha = 0.0
     }
     
-    override func presentationTransitionWillBegin() {
+    public override func presentationTransitionWillBegin() {
         containerView?.insertSubview(dimmingView, at: 0)
         NSLayoutConstraint.activate(
             NSLayoutConstraint.constraints(withVisualFormat: "V:|[dimmingView]|",
@@ -44,7 +44,7 @@ class CenterPresentationController: UIPresentationController {
         })
     }
     
-    override func dismissalTransitionWillBegin() {
+    public override func dismissalTransitionWillBegin() {
         guard let coordinator = presentedViewController.transitionCoordinator else {
             dimmingView.alpha = 0.0
             return
@@ -55,11 +55,11 @@ class CenterPresentationController: UIPresentationController {
         })
     }
     
-    override func containerViewWillLayoutSubviews() {
+    public override func containerViewWillLayoutSubviews() {
         presentedView?.frame = frameOfPresentedViewInContainerView
     }
     
-    override func size(forChildContentContainer container: UIContentContainer,
+    public override func size(forChildContentContainer container: UIContentContainer,
                        withParentContainerSize parentSize: CGSize) -> CGSize {
         return CGSize(width: parentSize.width, height: parentSize.height)
     }

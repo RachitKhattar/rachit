@@ -1,17 +1,17 @@
 import UIKit
 
-class FromTopDismissBottomPresentationAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+public class FromTopDismissBottomPresentationAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     let isPresentation: Bool
     init(isPresentation: Bool) {
         self.isPresentation = isPresentation
         super.init()
     }
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.33
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         let key = isPresentation ? UITransitionContextViewControllerKey.to
             : UITransitionContextViewControllerKey.from
