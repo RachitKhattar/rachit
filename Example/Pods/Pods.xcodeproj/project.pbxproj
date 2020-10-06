@@ -33,6 +33,7 @@
 		A7102E81EF4DF97C787350C8058C79BD /* rachit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8668CDA5D7719B0B74533DB9BD4E8FC /* rachit-dummy.m */; };
 		B3E9E46837217CC3FE9F56DE9BD9289A /* CenterPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200F3A3A8852DA0DA03EC8F4EF24A7 /* CenterPresentationController.swift */; };
 		B45ACF7E1FC8882FBFCEA8FC8E92EF05 /* CenterPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54544601AA38B27CC7736F80998C48C8 /* CenterPresentationAnimator.swift */; };
+		B9ACB94B252CC04D009159E5 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ACB94A252CC04D009159E5 /* HapticFeedback.swift */; };
 		CBB57E4F3F0032EB0247B1C35CF13957 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117FBD13E5B8E1C871542D9F9F84EF66 /* UICollectionViewCellExtension.swift */; };
 		D05FCD4CA7097409E50728D8AA83CB70 /* rachit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E948820FED1B81D3F539C49340557F /* rachit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7651B996969E9FC371165B9CC5CA453 /* CenterPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6051042384D5F7DB4825FAD0C86D6 /* CenterPresentationManager.swift */; };
@@ -57,14 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0116D915A2B2A73AE365C5DBC20C443B /* Pods_rachit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rachit_Example.framework; path = "Pods-rachit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE73CC85EAA0D23B1155A9F1E702FD4 /* rachit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rachit.framework; path = rachit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0116D915A2B2A73AE365C5DBC20C443B /* Pods_rachit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rachit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE73CC85EAA0D23B1155A9F1E702FD4 /* rachit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = rachit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFFA07BA7A5E1778A2BE2510F004936 /* FromTopDismissBottomPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromTopDismissBottomPresentationController.swift; sourceTree = "<group>"; };
 		0FC249463DBB34323BFE7EE03ADCBC97 /* Pods-rachit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rachit_Example-dummy.m"; sourceTree = "<group>"; };
 		117FBD13E5B8E1C871542D9F9F84EF66 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
 		1A37E2D44E20C2F6E8056E13E7B98983 /* Pods-rachit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E243A701903D085BF726DABB12612B0 /* Pods-rachit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rachit_Example.modulemap"; sourceTree = "<group>"; };
-		222EC5ECB015B9A6A00D14C643C2729F /* rachit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = rachit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		222EC5ECB015B9A6A00D14C643C2729F /* rachit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = rachit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		230729AA3F49C55EBB98A752EC91F73F /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		2CCCAFB68669AD9722011B4FA7B01B8E /* Pods-rachit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,24 +83,25 @@
 		55F6051042384D5F7DB4825FAD0C86D6 /* CenterPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationManager.swift; sourceTree = "<group>"; };
 		59E948820FED1B81D3F539C49340557F /* rachit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rachit-umbrella.h"; sourceTree = "<group>"; };
 		659C74FE066D1F5BE6D405BE71CE3A19 /* Pods-rachit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Tests-Info.plist"; sourceTree = "<group>"; };
-		6B4F13916860ACDC095C572BBE3F904B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6B4F13916860ACDC095C572BBE3F904B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6ED80C23E63BFCF4DD6EE040B5048B64 /* Pods-rachit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rachit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72DC1017BFDBD9274909B2594C623B98 /* SlideFromLeftPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentationController.swift; sourceTree = "<group>"; };
 		834252478D12A54E3A4184D4A1394885 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		864702C5CA107452EB6F1B8021F29FA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		864702C5CA107452EB6F1B8021F29FA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		868D2A41780A306618ECD1DDD3BBA9FE /* Pods-rachit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rachit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A2C1097F1C4BCD58DC801466521E5DE /* Pods-rachit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B3C24D1DA274D5F819B2D99AFB6479F /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		91200F3A3A8852DA0DA03EC8F4EF24A7 /* CenterPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CenterPresentationController.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A13FA12D810204CD73CE6A4E8580F9A7 /* SlideUpPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimator.swift; sourceTree = "<group>"; };
 		A71F56DB1B9C6F817F56B8509352441F /* SlideUpPresentationAnimatorForNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationAnimatorForNavigation.swift; sourceTree = "<group>"; };
 		AC2B2C690E61CAC44E9C75044361DE5E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		ADB384DB95E5CD64EA3981269245A003 /* Pods_rachit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rachit_Tests.framework; path = "Pods-rachit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB384DB95E5CD64EA3981269245A003 /* Pods_rachit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rachit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBB6F77D321A56FF4BE1A1E41E479E9 /* rachit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "rachit-Info.plist"; sourceTree = "<group>"; };
 		B3FDD007018FF69DB0AFB06B6E61E560 /* Pods-rachit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rachit_Example-umbrella.h"; sourceTree = "<group>"; };
 		B63F797B5CD46D05689C0F5B9B261D44 /* SlideUpPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideUpPresentationManager.swift; sourceTree = "<group>"; };
 		B644246C541F86EBB1C944DA6D6C9128 /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		B9ACB94A252CC04D009159E5 /* HapticFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		B9F8E22F591EDC6FAC412A859A82D8AC /* Pods-rachit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rachit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA72125108B26F5F72606273F006CB18 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		BBC7D1E36B302DB8865F1E432663C916 /* Pods-rachit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rachit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,7 +175,6 @@
 				4289FA664C989B5E978BD30B8647496D /* SlideUpPresentationController.swift */,
 				B63F797B5CD46D05689C0F5B9B261D44 /* SlideUpPresentationManager.swift */,
 			);
-			name = Animations;
 			path = Animations;
 			sourceTree = "<group>";
 		};
@@ -304,6 +305,7 @@
 		EA4EB68AA444AF8EB2FA55016AD2E28E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B9ACB94A252CC04D009159E5 /* HapticFeedback.swift */,
 				3F5DF010F229777718C686997183A4F8 /* Animations */,
 			);
 			name = Utils;
@@ -404,6 +406,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F91E1EDE2AE00B70D4C597AA4B8A5A00 = {
+						LastSwiftMigration = 1200;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -492,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F559B02BB076C6AE275AF1045B0E477 /* Pods-rachit_Example-dummy.m in Sources */,
+				B9ACB94B252CC04D009159E5 /* HapticFeedback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +557,7 @@
 			baseConfigurationReference = E9A51928745449671B3228D60CE840D7 /* Pods-rachit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -571,6 +580,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,6 +627,7 @@
 			baseConfigurationReference = 8A2C1097F1C4BCD58DC801466521E5DE /* Pods-rachit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -638,6 +650,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -731,8 +744,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
